@@ -1,0 +1,120 @@
+.game-provider-slider {
+    background: linear-gradient(to right,rgb(18, 120, 138) 0%,rgb(18, 120, 138) 100%);
+    margin-top: 25px;
+    display: flex;
+}
+
+.game-provider-slider .game-providers {
+    flex-grow: 1;
+    display: flex;
+    overflow: hidden;
+}
+
+.game-provider-slider .game-providers a {
+    color: #fff;
+    background: #353535;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(100% / 6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    border: 6px solid #FF9600;
+}
+
+.game-provider-slider .game-providers a:hover {
+    background: #b4b4b4;
+}
+
+.game-provider-slider .game-providers a h5 {
+    color: #fff;
+    font-size: 13px;
+    margin: 10px 0 0;
+    text-align: center;
+}
+
+.game-provider-slider>button {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.game-provider-slider>button:hover {
+    background-color: #b4b4b4;
+}
+
+@media screen and (max-device-width: 5000px) {
+    .game-provider-slider .game-providers a {
+        color: #fff;
+        background: #353535;
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: calc(50% / 3);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0;
+        border: 6px solid linear-gradient(to right,#ff6c00 0%,#f7a103 100%);
+        
+    }
+}
+
+.slot {
+    display: block;
+}
+
+.slot .slot-sidebar {
+    padding-right: 10px;
+    padding-left: 0;
+    margin-top: -15px;
+    background-color: black;
+    float: none !important;
+    width: 100% !important;
+    flex: none !important;
+    max-width: 100% !important;
+    padding-right: 0 !important;
+}
+
+.btn-provider:hover {
+    background-color: #c90;
+}
+
+.slot-sidebar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: nowrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.slot-sidebar-nav>li {
+    border-bottom: 1px solid #0092b1;
+    width: 100%;
+    position: relative;
+    display: block;
+    border-bottom: none;
+    padding: 6px;
+    background: linear-gradient(to bottom, #242424 0%, #515151 46%, #242424 100%);
+}
+
+.slot-sidebar-nav>li>a {
+    color: #fff;
+    font-size: 13px;
+    padding: 7px 10px;
+    display: block;
+    background-color: black;
+}
+
+.btn-provider {
+    text-align: center;
+    display: block;
+}
